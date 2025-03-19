@@ -4,3 +4,7 @@
 2. `cd email-spam-checker-workshop`
 3. `python -m venv .venv`
 4. `pip install -r requirements.txt`
+
+
+### Build and Run Webapp for Dev
+`flask --app app run`
