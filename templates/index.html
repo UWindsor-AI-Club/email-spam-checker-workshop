@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spam Detection</title>
+</head>
+<body>
+    <h1>Enter your email text below</h1>
+    <form method="post">
+        <textarea name="text_input" rows="5" cols="50">{{ user_text }}</textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+    {% if pred_res %}
+        <h2>Result: </h2>
+        <p>{{ pred_res }}</p>
+    {% endif %}
+</body>
+</html>
